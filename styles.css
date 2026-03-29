@@ -1,1 +1,102 @@
+/* ===== Page Layout ===== */
 
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    font-family: "Georgia", "Times New Roman", serif;
+    line-height: 1.7;
+    font-size: 18px;
+    background-color: #fafafa;
+    color: #222;
+}
+
+/* ===== Headings ===== */
+
+h1, h2, h3, h4 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 1px solid #ddd;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+/* ===== Links ===== */
+
+a {
+    color: #1a5fb4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Code ===== */
+
+code {
+    background-color: #f2f2f2;
+    padding: 3px 5px;
+    border-radius: 4px;
+    font-family: "SFMono-Regular", Consolas, monospace;
+}
+
+pre code {
+    display: block;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+/* ===== Math blocks ===== */
+
+.math.display {
+    margin: 1.5rem 0;
+}
+
+/* ===== Figures ===== */
+
+figure {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* ===== Tables ===== */
+
+table {
+    border-collapse: collapse;
+    margin: 1.5rem auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+}
+
+th {
+    background-color: #f3f3f3;
+}
+
+/* ===== Blockquotes ===== */
+
+blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1rem;
+    color: #555;
+}
