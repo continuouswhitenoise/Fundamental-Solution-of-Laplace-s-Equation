@@ -1,0 +1,19 @@
+.hidden {
+  display: none;
+}
+
+
+h1 {
+  text-align: center;
+  font-variant: all-small-caps;
+  font-size: 32px;
+}
+
+
+h2, h3, h4 {
+  color:  rgba(51, 58, 66, 1);
+  text-align: center;
+  font-variant: all-small-caps;
+  border-bottom: 0 solid rgba(0, 0, 0, .1);
+  padding-bottom: .1rem;
+}
